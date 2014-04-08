@@ -11,6 +11,7 @@
 	border-radius: 3px;
 	color: #363636;
 	padding: 1px 5px;
+	line-height: 27px;
 }
 
 .bootstrap-multiemail .tag.invalid {
