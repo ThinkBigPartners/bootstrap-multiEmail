@@ -21,7 +21,7 @@ Not added to the Bower Package Repository, yet. Use:
    
 `<script src="/bower_components/jquery-validation/jquery.validate.js"> //Optional`
 `<script src="/bower_components/bootstrap-tagsinput/dist/bootstrap-tagsinput.min.js">`
-`<script src="/bower_components/bootstrap-multiEmail/src/bootstrap-multiEmail.css">`   
+`<script src="/bower_components/bootstrap-multiEmail/src/bootstrap-multiEmail.js">`   
    
    
 ### HTML5 Data Instantiation   
