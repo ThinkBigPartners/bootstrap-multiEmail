@@ -5,18 +5,18 @@ Bootstrap Multi Email is a jQuery plugin providing a Twitter Bootstrap user inte
    
 ## Usage   
    
-# HTML5 Data Instantiation   
+### HTML5 Data Instantiation   
 
 Just add `data-role="multiemail"` to your input, select, or textarea element to automatically change it to a multi email input field.   
    
    
-# Manual Instantiation   
+### Manual Instantiation   
    
 `$('input').multiEmail()`   
    
 
 ## License   
-   
+
 This project is licensed under [MIT](https://raw.github.com/TimSchlechter/bootstrap-tagsinput/master/LICENSE "Read more about the MIT license").
 
 
