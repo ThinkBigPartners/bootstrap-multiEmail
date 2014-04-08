@@ -2,8 +2,23 @@
    
 Bootstrap Multi Email is a jQuery plugin providing a Twitter Bootstrap user interface adding multiple email addresses to a field (like Gmail's compose). It extends the functionality of Bootstrap Tags Input (https://github.com/TimSchlechter/bootstrap-tagsinput) to accomplish this.   
    
+## Installation   
+   
+### Bower   
+   
+   
    
 ## Usage   
+   
+### Include JS and CSS   
+   
+`<link href="/bower_components/bootstrap-tagsinput/dist/bootstrap-tagsinput.css">`   
+`<link href="/bower_components/bootstrap-multiEmail/src/bootstrap-multiEmail.css">`
+   
+`<script src="/bower_components/jquery-validation/jquery.validate.js"> //Optional`
+`<script src="/bower_components/bootstrap-tagsinput/dist/bootstrap-tagsinput.min.js">`
+`<script src="/bower_components/bootstrap-multiEmail/src/bootstrap-multiEmail.css">`   
+   
    
 ### HTML5 Data Instantiation   
 
