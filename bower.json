@@ -8,7 +8,7 @@
   "main": [
     "src/bootstrap-multiEmail.js",
     "src/bootstrap-multiEmail.css"
-  ]
+  ],
   "license": "MIT",
   "homepage": "https://github.com/ThinkBigPartners/bootstrap-multiEmail",
   "ignore": [
