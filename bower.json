@@ -21,6 +21,7 @@
   "dependencies": {
     "jquery" : "*",
     "jquery-validation":"*",
-    "bootstrap": "*"
+    "bootstrap": "*",
+    "bootstrap-tagsinput" : "*"
   }
 }
