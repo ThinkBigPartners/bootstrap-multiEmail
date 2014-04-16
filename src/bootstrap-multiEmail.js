@@ -88,6 +88,9 @@ if (typeof jQuery === 'undefined') { throw new Error('MultiEmail\'s JavaScript r
 		},
 		add: function(item) {
 			return this.$element.tagsinput('add', item);
+		},
+		removeAll: function() {
+			return this.$element.tagsinput('removeAll');
 		}
 	}
 
