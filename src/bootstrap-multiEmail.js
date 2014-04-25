@@ -64,6 +64,7 @@ if (typeof jQuery === 'undefined') { throw new Error('MultiEmail\'s JavaScript r
 					self.add(self.input().val());
 					self.input().val('');
 				}
+				self.input().attr('size', self.input().val().length + 1);
 			})
 
 			this.container().on('blur', 'input', function() {
