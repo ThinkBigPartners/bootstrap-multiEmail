@@ -61,8 +61,7 @@ if (typeof jQuery === 'undefined') { throw new Error('MultiEmail\'s JavaScript r
 
 			this.container().on('keydown', 'input', function(event) {
 				if (event.which == 9) {
-					self.add(self.input().val());
-					self.input().val('');
+					self.addPending();
 				}
 				self.input().attr('size', self.input().val().length + 1);
 			})
@@ -92,6 +91,11 @@ if (typeof jQuery === 'undefined') { throw new Error('MultiEmail\'s JavaScript r
 		},
 		removeAll: function() {
 			return this.$element.tagsinput('removeAll');
+		},
+
+		addPending : function() {
+			this.add(this.input().val());
+			this.input().val('');
 		}
 	}
 
